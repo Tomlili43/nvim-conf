@@ -1,0 +1,9 @@
+~/.config/nvim/..
+  after
+  ftplugin
+  lua
+   .gitignore
+   .stylua.toml
+   init.lua
+   lazy-lock.json
+   NvimTree_1

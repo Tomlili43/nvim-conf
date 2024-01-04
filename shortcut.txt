@@ -1,0 +1,68 @@
+set buftype issue ------ solve it by close nvim tree 
+NvimTree:
+tutorial: https://github.com/nvim-tree/nvim-tree.lua/blob/master/doc/nvim-tree-lua.txt
+E: expand directory
+W: collapse directory
+leader key: space
+u: undo
+x: cut single character
+X: cut single character backwards
+dd: cut line
+D: cut to end of line
+yy: copy line
+Y: copy to end of line
+p: paste after cursor
+P: paste before cursor
+r: replace single character
+R: replace multiple characters
+leader sv: split vertical
+leader sh: split horizontal
+leader sx: close split window
+leader se: window equal size
+leader to: open new tab
+leader tx: close current tab
+leader tn: next tab
+leader tp: previous tab 
+ctr h j k l: move between splits
+leader sm: maximize current window
+ys+w + " : surround word ""
+ds + " : delete surround "
+yw: copy word
+grw: replace word
+gcc # comment current line
+gc9j # comment multiline to 9th line
+gcip # comment in paragraph
+j: move down
+k: move up
+leader e: open and close file explorer
+in file explorer: a to add new file d to delete file
+leader ff: search file in project 
+ctrl j k: move between search results
+leader fs: search string in project
+
+file structure:
+├── init.lua
+├── lua
+│   └── josean
+│       ├── core
+│       │   ├── colorscheme.lua
+│       │   ├── keymaps.lua
+│       │   └── options.lua
+│       ├── plugins
+│       │   ├── autopairs.lua
+│       │   ├── comment.lua
+│       │   ├── gitsigns.lua
+│       │   ├── lsp
+│       │   │   ├── lspconfig.lua
+│       │   │   ├── lspsaga.lua
+│       │   │   ├── mason.lua
+│       │   │   └── null-ls.lua
+│       │   ├── lualine.lua
+│       │   ├── nvim-cmp.lua
+│       │   ├── nvim-tree.lua
+│       │   ├── telescope.lua
+│       │   └── treesitter.lua
+│       └── plugins-setup.lua
+├── plugin
+│   └── packer_compiled.lua
+└── shortcut.txt
